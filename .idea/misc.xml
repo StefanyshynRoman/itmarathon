@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/max-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/newpostoffice/pom.xml" />
+        <option value="$PROJECT_DIR$/snail-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/words-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/spiral-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/compass-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/figures-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/go-dutch-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/meet-a-stranger-ex/pom.xml" />
+        <option value="$PROJECT_DIR$/cycle-swap-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/pizza-split-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/contact-book-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/requirements-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/battleship8x8-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/books-catalog-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/file-tree-nio-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/meet-autocode-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/serialization-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/task-carousel-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/beware-of-dogs-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/cipher-creator-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/license-reader-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/project-skills-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/sprint-planning-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/sum-of-previous-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/electronic-watch-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/halving-carousel-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/meet-an-agent-exercise-v2/pom.xml" />
+        <option value="$PROJECT_DIR$/line-intersection-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/scanner-formatter-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-array-list-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-api-basics-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/student-gradebook-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/throwing-function-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/doubly-linked-list-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/quadratic-equation-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/local-maxima-remove-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/insurance-calculator-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/percentage-formatter-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/decrementing-carousel-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/ranged-ops-integer-set-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/validations-color-code-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/new-post-office-storage-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-api-intermediate-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/maternity-hospital-journal-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/gradually-decreasing-carousel-exercise/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

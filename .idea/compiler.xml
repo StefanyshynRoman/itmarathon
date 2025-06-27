@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="snail" />
+        <module name="figures" />
+        <module name="ranged-ops-integer-set" />
+        <module name="beware-of-dogs" />
+        <module name="new-post-office-storage" />
+        <module name="bookscatalog" />
+        <module name="single-array-list-solution" />
+        <module name="decrementing-carousel" />
+        <module name="file-tree-nio" />
+        <module name="throwing-function" />
+        <module name="cipher-creator" />
+        <module name="LocalMaximaRemove" />
+        <module name="meet-a-stranger" />
+        <module name="SumOfPrevious" />
+        <module name="meet-an-agent" />
+        <module name="license-reader" />
+        <module name="meet-autocode" />
+        <module name="halving-carousel" />
+        <module name="student-gradebook-skeleton" />
+        <module name="contact-book" />
+        <module name="gradually-decreasing-carousel" />
+        <module name="NewPostOffice" />
+        <module name="battleship-8x8" />
+        <module name="birth-journal-management" />
+        <module name="stream-exercises" />
+        <module name="requirements" />
+        <module name="project-skills-skeleton" />
+        <module name="cycle-swap" />
+        <module name="max" />
+        <module name="words" />
+        <module name="spiral" />
+        <module name="doubly-linked-list-skeleton" />
+        <module name="percentage-formatter" />
+        <module name="insurance-calculator" />
+        <module name="validations-color-code" />
+        <module name="go-dutch" />
+        <module name="taks-carousel" />
+        <module name="serialization" />
+        <module name="quadratic-equation" />
+        <module name="compass" />
+        <module name="electronic-watch" />
+        <module name="stream-exercises (1) (intermediate)" />
+        <module name="Line-Intersection" />
+        <module name="pizza-split" />
+        <module name="sprint-planning" />
+        <module name="io-scanner-formatter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

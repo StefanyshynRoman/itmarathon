@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/battleship8x8-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/beware-of-dogs-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/books-catalog-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cipher-creator-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/compass-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/contact-book-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cycle-swap-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/decrementing-carousel-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/doubly-linked-list-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electronic-watch-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/figures-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/file-tree-nio-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-dutch-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gradually-decreasing-carousel-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/halving-carousel-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/insurance-calculator-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/license-reader-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/line-intersection-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/local-maxima-remove-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/maternity-hospital-journal-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/max-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/meet-a-stranger-ex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/meet-an-agent-exercise-v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/meet-autocode-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new-post-office-storage-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/newpostoffice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/percentage-formatter-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pizza-split-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project-skills-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/quadratic-equation-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ranged-ops-integer-set-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/requirements-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scanner-formatter-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/serialization-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/simple-array-list-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/snail-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spiral-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sprint-planning-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stream-api-basics-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stream-api-intermediate-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/student-gradebook-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sum-of-previous-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/task-carousel-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/throwing-function-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/validations-color-code-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/words-exercise" vcs="Git" />
+  </component>
+</project>
