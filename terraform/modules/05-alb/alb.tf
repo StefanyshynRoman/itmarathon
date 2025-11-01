@@ -248,3 +248,23 @@ resource "aws_lb_listener_rule" "https_backend_host" {
     target_group_arn = aws_lb_target_group.backend.arn
   }
 }
+
+resource "aws_lb_listener_rule" "https_anniversary_path" {  
+  listener_arn = aws_lb_listener.https.arn
+  priority     = 600
+
+  condition {
+    host_header {
+      values = ["anniversary.${var.domain_name}"] # Match hostname
+    }
+  }
+
+  action {
+    type = "fixed-response"
+    fixed_response {
+      content_type = "text/html"
+      message_body = "<!DOCTYPE html><html><head><title>Happy Anniversary!</title></head><body style=\"background-color: #f2f4f7; text-align: center; font-family: Arial, sans-serif; padding: 50px;\"><div style=\"border: 3px solid #2368a0; border-radius: 15px; padding: 20px; display: inline-block; background-color: #ffffff;\"><h1 style=\"color: #2368a0;\">&#x1F389; Happy EPAM Ukraine 20 Anniversary! &#x1F389;</h1><p style=\"font-size: 18px; color: #555;\">Celebrating 20 incredible years of<br>innovation, excellence, and teamwork!</p><footer style=\"margin-top: 20px; font-size: 12px; color: #2368a0;\">#WeAreEPAM | #20YearsTogether</footer></div></body></html>"
+      status_code = "200"
+    }
+  }
+}
