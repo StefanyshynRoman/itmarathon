@@ -18,5 +18,4 @@ Provision the cloud infrastructure in AWS using [Terraform](docs/terraform-readm
 
 # Local Development
 
-Bring up an easily manageable infrastructure for local development with [Docker Compose](docs/compose-readme.md)
-
+Bring up an easily manageable infrastructure for local development with [Docker Compose](docs/compose-readme.md)1
