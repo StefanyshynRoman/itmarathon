@@ -402,3 +402,4 @@ FodyWeavers.xsd
 # Remove app inforation etc.
 **/AppDbContextFactory.cs
 **/Infrastructure/appsettings.json
+.vs/
