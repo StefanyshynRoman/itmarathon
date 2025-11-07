@@ -7,7 +7,7 @@ import {
   input,
 } from '@angular/core';
 import { tap } from 'rxjs';
-
+import { EventEmitter, Output } from '@angular/core';
 import { IconButton } from '../icon-button/icon-button';
 import {
   AriaLabel,
@@ -33,6 +33,7 @@ import type { User } from '../../../app.models';
   styleUrl: './participant-card.scss',
 })
 export class ParticipantCard {
+  @Output() delete = new EventEmitter<number>();
   readonly participant = input.required<User>();
   readonly isCurrentUserAdmin = input.required<boolean>();
 
@@ -58,7 +59,8 @@ export class ParticipantCard {
   public readonly ariaLabelCopy = AriaLabel.ParticipantLink;
   public readonly iconInfo = IconName.Info;
   public readonly ariaLabelInfo = AriaLabel.Info;
-
+  public readonly ariaLabelDelete = AriaLabel.DeleteUser;
+  public readonly icoDelete = IconName.Close;
   @HostBinding('tabindex') tab = 0;
   @HostBinding('class.list-row') rowClass = true;
 
@@ -120,7 +122,28 @@ export class ParticipantCard {
       this.#popup.hide(target);
     }
   }
+//delete
+  public onDeleteClick(): void {
+    this.#deleteUserFromRoom();
+  }
 
+  #deleteUserFromRoom(): void {
+    const userId = this.participant().id;
+
+    this.#userService
+      .deleteUser(userId)
+      .subscribe({
+        next: () => this.delete.emit(userId),
+        error: () => {
+          this.#popup.show(
+            this.#host.nativeElement,
+            PopupPosition.Right,
+            { message: 'Delete failed', type: MessageType.Error },
+            false
+          );
+        },
+      });
+  }
   #openModal(): void {
     const personalInfo = getPersonalInfo(this.participant());
     const roomLink = this.#urlService.getNavigationLinks(
@@ -167,4 +190,5 @@ export class ParticipantCard {
       true
     );
   }
+
 }

@@ -32,6 +32,7 @@ import { UrlService } from '../core/services/url';
 import { NavigationLinkSegment } from '../app.enum';
 import { PersonalInfoModal } from './components/personal-info-modal/personal-info-modal';
 import { InvitationModal } from '../shared/components/invitation-modal/invitation-modal';
+import {User} from '../app.models';
 
 @Component({
   selector: 'app-room',
@@ -191,5 +192,9 @@ export class Room implements OnInit {
 
   #toggleBackgroundAnimation(): void {
     this.isBackgroundAnimationActive.update((prev) => !prev);
+  }
+
+  updateUsers(newList: User[]) {
+    this.#userService.updateUsers(newList);
   }
 }

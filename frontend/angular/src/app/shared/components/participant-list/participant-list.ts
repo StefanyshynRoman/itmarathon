@@ -1,4 +1,4 @@
-import { Component, computed, HostBinding, input } from '@angular/core';
+import { Component, computed, HostBinding, input, Output, EventEmitter } from '@angular/core';
 import { User } from '../../../app.models';
 import { ParticipantCard } from '../participant-card/participant-card';
 import { toTimestamp } from '../../../utils/times';
@@ -14,6 +14,8 @@ export class ParticipantList {
   public readonly maxParticipants = input<number>(20);
   public readonly isAdmin = input<boolean>(false);
   public readonly userCode = input<string>('');
+
+  @Output() participantsChange = new EventEmitter<User[]>();
 
   @HostBinding('class.non-admin-list')
   get adminClass(): boolean {
@@ -39,4 +41,9 @@ export class ParticipantList {
       }
     );
   });
+
+  handleDelete(userId: number) {
+    const newList = this.participants().filter(u => u.id !== userId);
+    this.participantsChange.emit(newList);
+  }
 }
