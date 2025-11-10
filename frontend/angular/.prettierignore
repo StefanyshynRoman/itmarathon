@@ -1,9 +1,0 @@
-src/app/app.enum.ts
-src/app/room/room.html
-src/app/core/services/api.ts
-src/app/room/room.ts
-src/app/shared/components/participant-card/participant-card.html
-src/app/room/services/user.ts
-src/app/shared/components/participant-card/participant-card.ts
-src/app/shared/components/participant-list/participant-list.html
-src/app/shared/components/participant-list/participant-list.ts
